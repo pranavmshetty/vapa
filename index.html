@@ -11,20 +11,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
-			.btn {
+			a.btn {
   background: #d93434;
   background-image: -webkit-linear-gradient(top, #d93434, #b82b47);
   background-image: -moz-linear-gradient(top, #d93434, #b82b47);
   background-image: -ms-linear-gradient(top, #d93434, #b82b47);
   background-image: -o-linear-gradient(top, #d93434, #b82b47);
   background-image: linear-gradient(to bottom, #d93434, #b82b47);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 38;
+  -moz-border-radius: 38;
+  border-radius: 38px;
   
   color: #ffffff;
   font-size: 20px;
-  padding: 0px 10px 10px 10px ;
+  padding: 0px 10px 0px 10px ;
 
   text-decoration: none;
 }
@@ -38,21 +38,46 @@
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+a.but {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  background-color: #ff2361;
+  border-radius: 38px;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  height: 2.75em;
+  line-height: 2.75em;
+  padding: 0 1.125em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap; }
+  .but:hover {
+    background-color: #1fcaa7; }
+
 			</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
-				<h1>VA</h1>
-				<p> The most advanced <b>A.I. powered chatbot</b> </br> Please enter the code - " <b>VA21VE</b> " in the chat panel to begin the conversation. 
+				<h1> <b>A.I. powered chatbot</b> </h1>
+				<p>Enter code - " <b>VA21VE</b> " in the chat panel to begin the conversation. 
 				</p>
 				<p>
 					<ul>
 					<li> If you want to <b> <span style="color:red;">STOP</span> </b> participating or if you have completed talking to <b>VA</b>, please click
-						<button id="End" class="btn" onclick="location.href='https://www.google.com';"><b> End Conversation </b></li>
-				
-					  <li> If you have any questions, please contact the researcher:<a href = "mailto: p.muppirishetty@tue.nl"> Send Email</a> </li>			
+						<a href="https://google.com" class="but" target="_blank"><b>End Conversation</b></a></li>
+						<li> If you have any questions, please contact the researcher:   <a href = "mailto: p.muppirishetty@tue.nl" class="but" style="font-size: 15px;"><b>Send email</b></a> </li>
 					</ul>
 					</p>
 			</header>
